@@ -13,8 +13,8 @@ public class Bacheca {
         this.descrizione = descrizione;
     }
 
-    public void aggiungiToDo(ToDo todo) {
-        toDoList.add(todo);
+    public void aggiungiToDo(ToDo toDo) {
+        toDoList.add(toDo);
     }
 
     public List<ToDo> getToDoList() {

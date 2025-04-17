@@ -3,13 +3,23 @@ package org.example;
 public class Condivisione {
     private String titolo;
     private String username;
-    private int numero;
     private boolean statoUtente;
 
-    public Condivisione(String titolo, String username, int numero, boolean statoUtente) {
+    public Condivisione(String titolo, String username, boolean statoUtente) {
         this.titolo = titolo;
         this.username = username;
-        this.numero = numero;
         this.statoUtente = statoUtente;
+    }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public boolean isStatoUtente() {
+        return statoUtente;
     }
 }

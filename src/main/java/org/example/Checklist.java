@@ -11,11 +11,11 @@ public class Checklist {
         this.nome = nome;
     }
 
-    public void aggiungiAttività(Attivita attivita) {
+    public void aggiungiAttivita(Attivita attivita) {
         attivitaList.add(attivita);
     }
 
-    public List<Attivita> getAttivitàList() {
+    public List<Attivita> getAttivitaList() {
         return attivitaList;
     }
 }
